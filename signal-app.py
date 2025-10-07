@@ -168,7 +168,7 @@ with tab3:
 
     # Lade ein Beispielbild
     # KORRIGIERTE URL:
-    IMG_URL = "https://raw.githubusercontent.com/streamlit/demo-data/main/new-york-city-skyline-s.jpg"
+    IMG_URL = "https://fastly.picsum.photos/id/13/2500/1667.jpg?hmac=SoX9UoHhN8HyklRA4A3vcCWJMVtiBXUg0W4ljWTor7s"
     original_image = load_image(IMG_URL)
 
     col1, col2, col3 = st.columns([1, 2, 2])
