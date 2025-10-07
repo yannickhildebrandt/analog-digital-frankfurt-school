@@ -167,7 +167,8 @@ with tab3:
         return img
 
     # Lade ein Beispielbild
-    IMG_URL = "https://images.pexels.com/photos/1528640/pexels-photo-1528640.jpeg"
+    # KORRIGIERTE URL:
+    IMG_URL = "https://raw.githubusercontent.com/streamlit/demo-data/main/new-york-city-skyline-s.jpg"
     original_image = load_image(IMG_URL)
 
     col1, col2, col3 = st.columns([1, 2, 2])
